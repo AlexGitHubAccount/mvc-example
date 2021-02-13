@@ -1,0 +1,85 @@
+.btn {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.body {
+  position: relative;
+}
+
+.like {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.like__image {
+  width: 400px;
+  height: 300px;
+  background-color: gray;
+  background-size: cover;
+  background-position: center center;
+}
+
+.like__prev-btn,
+.like__next-btn {
+  width: 70px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: orange;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.like__prev-btn {
+  left: -70px;
+  background-image: url("images/left-arrow.png");
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.like__prev-btn:hover,
+.like__next-btn:hover {
+  background-color: darkorange;
+}
+
+.like__next-btn {
+  right: -70px;
+  background-image: url("images/right-arrow.png");
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.like__counter {
+  position: absolute;
+  height: 70px;
+  right: 0;
+  left: 0;
+  font-size: 20px;
+}
+
+.like__like-btn {
+  float: right;
+  height: 50px;
+  width: 50%;
+  font-size: 20px;
+}
+
+.like__like-btn:hover {
+  background-color: darkgray;
+}
+
+
+.like__like-num {
+  padding-top: 15px;
+  float: left;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
